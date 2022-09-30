@@ -1,0 +1,10 @@
+.section {
+  margin-left: 0;
+  padding: 0;
+}
+
+.ul {
+  margin-left: 0;
+  padding-left: 0;
+  list-style: none;
+}

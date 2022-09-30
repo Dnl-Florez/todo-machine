@@ -1,0 +1,19 @@
+.searcher {
+  width: 80%;
+  height: 40px;
+  margin-left: 9%;
+  margin-top: 3rem;
+  border: 2px dotted rgb(255,255,255);
+  background-color: rgb(25,25,25);
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Quicksand';
+  color: rgb(255,255,255);
+}
+
+.searcher::placeholder{
+  color: rgb(255,255,255);
+  font-size: 25px;
+  font-family: 'Quicksand';
+  text-align: center;
+}

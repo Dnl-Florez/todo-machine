@@ -1,0 +1,18 @@
+.filter {
+  cursor: pointer;
+  display: flex;
+  justify-content: right;
+  margin-right: 11%;
+  margin-top: -5px;
+}
+
+.filter p {
+  margin-right: 3px;
+  margin-left: 5px;
+}
+
+.filter p:hover {
+  border: solid;
+  background-color: rgb(255,255,255);
+  color: rgb(25,25,25);
+}

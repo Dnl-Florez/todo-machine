@@ -1,24 +1,19 @@
-import logo from './logo.svg';
+import React from 'react';
+import { TodoProvider } from './TodoContext/TodoContext.js';
+import { AppUI } from './AppUI.js';
 import './App.css';
+
+// const defaultTodos = [
+//   {text: 'Cortar cebolla', completed: false},
+//   {text: 'Tomar curso de intro a React', completed: false},
+//   {text: 'Llorar con la llorona', completed: false}
+// ];
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <TodoProvider>
+      <AppUI />
+    </TodoProvider>
   );
 }
 
